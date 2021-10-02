@@ -6,7 +6,7 @@ function App() {
   const [apiResponse, setApiResponse] = useState<string>();
 
   useEffect(() => {
-      const url = 'http://theos-books-api.herokuapp.com/hello';
+      const url = 'https://theos-books-api.herokuapp.com/hello';
 
       const fetchData = async() => {
           try {
