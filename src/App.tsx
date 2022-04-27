@@ -13,7 +13,8 @@ function App() {
               const response = await fetch(url, {
                   headers: {
                       'Accept': `application/json`,
-                      'Content-Type': `application/json`
+                      'Content-Type': `application/json`,
+                      'Access-Control-Allow-Origin': `https://doestheohavethisbook.herokuapp.com`
                   }
               });
               const text = await response.text();
